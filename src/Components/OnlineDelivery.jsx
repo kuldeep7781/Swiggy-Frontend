@@ -113,9 +113,9 @@ const OnlineDelivery = () => {
             Restaurants with online food delivery in Indore
           </div>
         </div>
-        <div className="grid md:grid-cols-4 gap-3 grid-cols-3">
+        <div className="grid md:grid-cols-3 gap-6 grid-cols-3">
         {RestoChain.map((data, index) => {
-            return <Card {...data} key={index} />;
+            return <Card {...data} key={index} />; 
           })}
         </div>
       </div>
